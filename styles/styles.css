@@ -1,0 +1,195 @@
+
+
+a {
+	color: rgba(0, 0, 0, .40);
+	text-decoration: none;
+}
+	
+body {
+    background-color: #c3bfbc;
+}
+
+
+/* Navigation */
+
+nav {
+    list-style: none;
+    padding: 10px;
+	float: left;
+	width: 40%;
+	margin: 0 auto;
+	color: rgba(0, 0, 0, .40);
+}
+
+p > a:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+	
+
+.navlink {
+	border-style: solid;
+	border-color: rgba(0, 0, 0, .1);
+	margin: 10px;
+	font-size: 0.8em;
+	padding-left: 15px;
+}
+
+.navlink:hover {
+	background-color: rgba(0, 0, 0, .1);
+	cursor: pointer;
+}
+
+.navcurrent {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+/* Content */
+#screencontent{
+	width: 490px;
+	font-size: 0.35em;
+	line-height: 100%;
+	padding: 10px;
+}
+
+/* Gameboy Screen */
+
+
+#gameboy {
+    margin: auto;
+    width: 50%;
+    min-width: 700px;
+    position: relative;
+    max-width: 750px;
+	height: 1100px;
+	overflow-x: hidden;
+}
+
+#gbscreenborder {
+    background-color: #88868b;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    z-index: 1;
+    position: relative;
+    min-height: 600px;
+	max-height: 600px;
+    color: #656468;
+    padding: 5px 10px;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    line-height: 0%;
+    max-width: 700px;
+	min-width: 650px;
+}
+
+#gbdisplay {
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    background-color: #859f51;
+    z-index: 2;
+    margin: auto;
+    bottom: -25px;
+    position:  relative;
+    margin-top: 3%;
+    line-height: 100%;
+    color: rgba(0, 0, 0, .75);
+    font-size: 2em;
+}
+
+#gbscreenbordertext {
+	font-family: raleway, sans-serif;
+	color: rgba(255, 255, 255, .75);
+	font-size: .6em;
+	position: relative;
+	left: 413px;
+	top: 12px;
+	letter-spacing: 3px;
+	
+}
+
+/* Gameboy buttons */
+
+#dpad {
+    float: left;
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    font-size: 20em;
+    width: 30%;
+    display: block;
+    
+}
+
+.fa-circle {
+    font-size: 500em;
+    float: right;
+    position: relative;
+    top: 200px;
+    color: #8d2a59;
+}
+
+#a, #b {
+    font-size: 7em;
+}
+
+#b {
+    position: relative;
+    top: 270px;
+    right: 50px;
+}
+
+/* Soundcloud Transition */
+ 
+#loading {
+	position: relative;
+	top: 100px;
+	font-size: 60px;
+	left: 40px;
+	display: inline;
+	
+}
+
+/* Contacts Page */
+
+.facontact {
+	width: 15%;
+	height: 10%;
+	position: relative;
+	color: rgba(0, 0, 0, .50);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fa-soundcloud {
+	width: 20%;
+	color: rgba(0, 0, 0, .50);
+}
+
+.fa-comments-o {
+	width: 15%;
+}
+
+.social {
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+.social {
+	float: right;
+}
+
+
+/* Debugging */
+
+/* * {  */
+    /* outline: 1px solid rgba(255, 0, 0, 0.25);   */
+  /* }  */
+
+
+
+
+
+
+
+
